@@ -116,7 +116,7 @@ pipeline {
 
 			environment {
 				ARTIFACTORY = credentials('02bd1690-b54f-4c9f-819d-a77cb7a9822c')
-				SONATYPE = credentials('oss-token')
+				SONATYPE = credentials('oss-login')
 				KEYRING = credentials('spring-signing-secring.gpg')
 				PASSPHRASE = credentials('spring-gpg-passphrase')
 			}
